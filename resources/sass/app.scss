@@ -1,8 +1,8 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
+$font-size1:14px;
 body {
-    font-size: 14px;
+    font-size: $font-size1;
     font-weight: normal;
 }
 
