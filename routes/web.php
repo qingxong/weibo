@@ -17,4 +17,4 @@ route::get('signup',"UsersController@create")->name('signup');
 route::resource('users','UsersController');
 route::get('login','SessionsController@create')->name('login');
 route::post('login','SessionsController@store')->name('login');
-route::delete('login','SessionsController@destroy')->name('login');
+route::delete('logout','SessionsController@destroy')->name('logout');
